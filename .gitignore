@@ -1,6 +1,7 @@
-*.class
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 
-# Package Files #
-*.jar
-*.war
-*.ear
+build
+node_modules
+ncp-debug.log
+npm-debug.log
